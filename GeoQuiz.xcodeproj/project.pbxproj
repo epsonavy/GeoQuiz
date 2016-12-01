@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA43D5FD1DEEC3AF005047D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43D5FC1DEEC3AF005047D0 /* AppDelegate.swift */; };
+		AA43D5FF1DEEC3AF005047D0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43D5FE1DEEC3AF005047D0 /* MapViewController.swift */; };
+		AA43D6021DEEC3AF005047D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA43D6001DEEC3AF005047D0 /* Main.storyboard */; };
+		AA43D6041DEEC3AF005047D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA43D6031DEEC3AF005047D0 /* Assets.xcassets */; };
+		AA43D6071DEEC3AF005047D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA43D6051DEEC3AF005047D0 /* LaunchScreen.storyboard */; };
+		AA43D60F1DEF76B6005047D0 /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43D60E1DEF76B6005047D0 /* MapPin.swift */; };
+		AA43D6111DEF797F005047D0 /* location.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA43D6101DEF797F005047D0 /* location.txt */; };
+		AA43D6131DEF9C94005047D0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43D6121DEF9C94005047D0 /* TableViewController.swift */; };
+		AA43D6151DEFAAE6005047D0 /* CapitalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43D6141DEFAAE6005047D0 /* CapitalViewCell.swift */; };
+		AA43D6171DEFBA3A005047D0 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43D6161DEFBA3A005047D0 /* Singleton.swift */; };
+		AA43D6191DEFC100005047D0 /* MapPinStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43D6181DEFC100005047D0 /* MapPinStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA43D5F91DEEC3AF005047D0 /* GeoQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA43D5FC1DEEC3AF005047D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA43D5FE1DEEC3AF005047D0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AA43D6011DEEC3AF005047D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA43D6031DEEC3AF005047D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA43D6061DEEC3AF005047D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA43D6081DEEC3AF005047D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA43D60E1DEF76B6005047D0 /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		AA43D6101DEF797F005047D0 /* location.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = location.txt; sourceTree = "<group>"; };
+		AA43D6121DEF9C94005047D0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AA43D6141DEFAAE6005047D0 /* CapitalViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapitalViewCell.swift; sourceTree = "<group>"; };
+		AA43D6161DEFBA3A005047D0 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Singleton.swift; path = ../Singleton.swift; sourceTree = "<group>"; };
+		AA43D6181DEFC100005047D0 /* MapPinStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPinStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA43D5F61DEEC3AF005047D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA43D5F01DEEC3AF005047D0 = {
+			isa = PBXGroup;
+			children = (
+				AA43D5FB1DEEC3AF005047D0 /* GeoQuiz */,
+				AA43D5FA1DEEC3AF005047D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA43D5FA1DEEC3AF005047D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA43D5F91DEEC3AF005047D0 /* GeoQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA43D5FB1DEEC3AF005047D0 /* GeoQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				AA43D6161DEFBA3A005047D0 /* Singleton.swift */,
+				AA43D5FC1DEEC3AF005047D0 /* AppDelegate.swift */,
+				AA43D5FE1DEEC3AF005047D0 /* MapViewController.swift */,
+				AA43D6001DEEC3AF005047D0 /* Main.storyboard */,
+				AA43D6141DEFAAE6005047D0 /* CapitalViewCell.swift */,
+				AA43D6121DEF9C94005047D0 /* TableViewController.swift */,
+				AA43D6031DEEC3AF005047D0 /* Assets.xcassets */,
+				AA43D6051DEEC3AF005047D0 /* LaunchScreen.storyboard */,
+				AA43D6081DEEC3AF005047D0 /* Info.plist */,
+				AA43D60E1DEF76B6005047D0 /* MapPin.swift */,
+				AA43D6181DEFC100005047D0 /* MapPinStore.swift */,
+				AA43D6101DEF797F005047D0 /* location.txt */,
+			);
+			path = GeoQuiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA43D5F81DEEC3AF005047D0 /* GeoQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA43D60B1DEEC3AF005047D0 /* Build configuration list for PBXNativeTarget "GeoQuiz" */;
+			buildPhases = (
+				AA43D5F51DEEC3AF005047D0 /* Sources */,
+				AA43D5F61DEEC3AF005047D0 /* Frameworks */,
+				AA43D5F71DEEC3AF005047D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoQuiz;
+			productName = GeoQuiz;
+			productReference = AA43D5F91DEEC3AF005047D0 /* GeoQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA43D5F11DEEC3AF005047D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Pei Liu";
+				TargetAttributes = {
+					AA43D5F81DEEC3AF005047D0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA43D5F41DEEC3AF005047D0 /* Build configuration list for PBXProject "GeoQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA43D5F01DEEC3AF005047D0;
+			productRefGroup = AA43D5FA1DEEC3AF005047D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA43D5F81DEEC3AF005047D0 /* GeoQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA43D5F71DEEC3AF005047D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA43D6071DEEC3AF005047D0 /* LaunchScreen.storyboard in Resources */,
+				AA43D6041DEEC3AF005047D0 /* Assets.xcassets in Resources */,
+				AA43D6021DEEC3AF005047D0 /* Main.storyboard in Resources */,
+				AA43D6111DEF797F005047D0 /* location.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA43D5F51DEEC3AF005047D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA43D60F1DEF76B6005047D0 /* MapPin.swift in Sources */,
+				AA43D6191DEFC100005047D0 /* MapPinStore.swift in Sources */,
+				AA43D6171DEFBA3A005047D0 /* Singleton.swift in Sources */,
+				AA43D6151DEFAAE6005047D0 /* CapitalViewCell.swift in Sources */,
+				AA43D5FF1DEEC3AF005047D0 /* MapViewController.swift in Sources */,
+				AA43D5FD1DEEC3AF005047D0 /* AppDelegate.swift in Sources */,
+				AA43D6131DEF9C94005047D0 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA43D6001DEEC3AF005047D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA43D6011DEEC3AF005047D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA43D6051DEEC3AF005047D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA43D6061DEEC3AF005047D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA43D6091DEEC3AF005047D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA43D60A1DEEC3AF005047D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA43D60C1DEEC3AF005047D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GeoQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs175.GeoQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		AA43D60D1DEEC3AF005047D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GeoQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs175.GeoQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA43D5F41DEEC3AF005047D0 /* Build configuration list for PBXProject "GeoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA43D6091DEEC3AF005047D0 /* Debug */,
+				AA43D60A1DEEC3AF005047D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA43D60B1DEEC3AF005047D0 /* Build configuration list for PBXNativeTarget "GeoQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA43D60C1DEEC3AF005047D0 /* Debug */,
+				AA43D60D1DEEC3AF005047D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA43D5F11DEEC3AF005047D0 /* Project object */;
+}
