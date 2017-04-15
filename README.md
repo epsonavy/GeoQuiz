@@ -23,3 +23,4 @@ In Building Settings:
 Notes
 - Please use iPhone 6/7 Screen to get the best experience
 
+# GeoQuiz
