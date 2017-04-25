@@ -1,14 +1,5 @@
-Geo Quiz
+Geo Quiz 
 =======
-
-Name: Pei Lian Liu
-
-Email: epsonavy@yahoo.com
-
-Group/Individual: Individual Work
-
-Time Consumption: 8 hours
-
 
 My project was successful run on Xcode 8 with following setting:
 
